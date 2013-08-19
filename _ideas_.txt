@@ -1,0 +1,22 @@
+
+Ideas:
+
+* Macros -- be able to use select-play-select codes
+
+* link to launch m.tivo.com
+
+* displaying the NPL on the phone (via the NPL xml)
+
+* a button to go directly to the now playing list would be nice
+
+* visual display of what channel we are recording
+
+* better application icon
+
+* allow manually setting of an IP address and port (for crestron?)
+
+* favorite channel list
+
+* always connect to the last connected tivo
+
+* whats playing -- and figure out a way to jump to that show.

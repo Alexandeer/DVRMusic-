@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ConnectTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ConnectTAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		A02E54400F33C7F80021F7BC /* EnterTivoIP.xib in Resources */ = {isa = PBXBuildFile; fileRef = A02E543F0F33C7F80021F7BC /* EnterTivoIP.xib */; };
+		A02E54450F33C8FE0021F7BC /* EnterIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02E54440F33C8FD0021F7BC /* EnterIPViewController.m */; };
+		A02E54FE0F33CEE40021F7BC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A02E54FD0F33CEE40021F7BC /* Reachability.m */; };
+		A02E55DF0F33CF4D0021F7BC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02E55DE0F33CF4D0021F7BC /* SystemConfiguration.framework */; };
+		A07D7B710F40F87400DBC2C5 /* TiVoServerLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D7B700F40F87400DBC2C5 /* TiVoServerLoader.m */; };
+		A0989A310F329C31004B084D /* backdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = A0989A300F329C31004B084D /* backdrop.png */; };
+		A0989D4C0F32D0E9004B084D /* PDColoredProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0989D4B0F32D0E9004B084D /* PDColoredProgressView.m */; };
+		A0989D620F32D10B004B084D /* drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = A0989D610F32D10B004B084D /* drawing.m */; };
+		A0989DB30F32D3CC004B084D /* favorites-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A0989DB20F32D3CC004B084D /* favorites-57x57.png */; };
+		A0C33C7E0F25963300F7DD08 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C33C7C0F25963300F7DD08 /* AudioStreamer.m */; };
+		A0C33D260F25968E00F7DD08 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C33D250F25968E00F7DD08 /* QuartzCore.framework */; };
+		A0C33D370F25969900F7DD08 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C33D360F25969900F7DD08 /* AudioToolbox.framework */; };
+		A0C33D440F2596A700F7DD08 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C33D430F2596A700F7DD08 /* CFNetwork.framework */; };
+		A0C33D490F259E4D00F7DD08 /* TiVoContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C33D480F259E4D00F7DD08 /* TiVoContainer.m */; };
+		A0C33F050F25BC5D00F7DD08 /* TiVoContainerLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C33F040F25BC5D00F7DD08 /* TiVoContainerLoader.m */; };
+		A0C344620F2675D800F7DD08 /* CFBonjour.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C344610F2675D800F7DD08 /* CFBonjour.m */; };
+		A0C345130F268BD200F7DD08 /* Connections.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0C345120F268BD200F7DD08 /* Connections.xib */; };
+		A0C345170F268C2A00F7DD08 /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C345160F268C2A00F7DD08 /* ConnectionsViewController.m */; };
+		A0C346740F27032200F7DD08 /* Player.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0C346730F27032200F7DD08 /* Player.xib */; };
+		A0C346D80F270A4900F7DD08 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C346D70F270A4900F7DD08 /* PlayerViewController.m */; };
+		A0C347210F270EF700F7DD08 /* play-48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C3471D0F270EF700F7DD08 /* play-48x48.png */; };
+		A0C347220F270EF700F7DD08 /* forward-48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C3471E0F270EF700F7DD08 /* forward-48x48.png */; };
+		A0C347230F270EF700F7DD08 /* rewind-48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C3471F0F270EF700F7DD08 /* rewind-48x48.png */; };
+		A0C347240F270EF700F7DD08 /* pause-48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C347200F270EF700F7DD08 /* pause-48x48.png */; };
+		A0C347260F270FDA00F7DD08 /* favorites-256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C347250F270FDA00F7DD08 /* favorites-256x256.png */; };
+		A0C3474D0F27154900F7DD08 /* stop-48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C3474C0F27154900F7DD08 /* stop-48x48.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ConnectTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectTAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ConnectTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectTAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DVR Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DVR Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* ConnectT_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectT_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02E543F0F33C7F80021F7BC /* EnterTivoIP.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterTivoIP.xib; sourceTree = "<group>"; };
+		A02E54430F33C8FD0021F7BC /* EnterIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterIPViewController.h; sourceTree = "<group>"; };
+		A02E54440F33C8FD0021F7BC /* EnterIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterIPViewController.m; sourceTree = "<group>"; };
+		A02E54FC0F33CEE40021F7BC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A02E54FD0F33CEE40021F7BC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A02E55DE0F33CF4D0021F7BC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A07D7B6F0F40F87400DBC2C5 /* TiVoServerLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiVoServerLoader.h; sourceTree = "<group>"; };
+		A07D7B700F40F87400DBC2C5 /* TiVoServerLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiVoServerLoader.m; sourceTree = "<group>"; };
+		A0989A300F329C31004B084D /* backdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backdrop.png; sourceTree = "<group>"; };
+		A0989D4A0F32D0E9004B084D /* PDColoredProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDColoredProgressView.h; sourceTree = "<group>"; };
+		A0989D4B0F32D0E9004B084D /* PDColoredProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDColoredProgressView.m; sourceTree = "<group>"; };
+		A0989D610F32D10B004B084D /* drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawing.m; sourceTree = "<group>"; };
+		A0989DB20F32D3CC004B084D /* favorites-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorites-57x57.png"; sourceTree = "<group>"; };
+		A0C33C7C0F25963300F7DD08 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		A0C33C7D0F25963300F7DD08 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		A0C33D250F25968E00F7DD08 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A0C33D360F25969900F7DD08 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A0C33D430F2596A700F7DD08 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A0C33D470F259E4D00F7DD08 /* TiVoContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiVoContainer.h; path = ../TiVoContainer.h; sourceTree = "<group>"; };
+		A0C33D480F259E4D00F7DD08 /* TiVoContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiVoContainer.m; path = ../TiVoContainer.m; sourceTree = "<group>"; };
+		A0C33F030F25BC5D00F7DD08 /* TiVoContainerLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiVoContainerLoader.h; sourceTree = "<group>"; };
+		A0C33F040F25BC5D00F7DD08 /* TiVoContainerLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiVoContainerLoader.m; sourceTree = "<group>"; };
+		A0C344600F2675D800F7DD08 /* CFBonjour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBonjour.h; sourceTree = "<group>"; };
+		A0C344610F2675D800F7DD08 /* CFBonjour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFBonjour.m; sourceTree = "<group>"; };
+		A0C345120F268BD200F7DD08 /* Connections.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Connections.xib; sourceTree = "<group>"; };
+		A0C345150F268C2A00F7DD08 /* ConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionsViewController.h; path = ../ConnectionsViewController.h; sourceTree = "<group>"; };
+		A0C345160F268C2A00F7DD08 /* ConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionsViewController.m; path = ../ConnectionsViewController.m; sourceTree = "<group>"; };
+		A0C346730F27032200F7DD08 /* Player.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Player.xib; sourceTree = "<group>"; };
+		A0C346D60F270A4900F7DD08 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		A0C346D70F270A4900F7DD08 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		A0C3471D0F270EF700F7DD08 /* play-48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-48x48.png"; sourceTree = "<group>"; };
+		A0C3471E0F270EF700F7DD08 /* forward-48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward-48x48.png"; sourceTree = "<group>"; };
+		A0C3471F0F270EF700F7DD08 /* rewind-48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rewind-48x48.png"; sourceTree = "<group>"; };
+		A0C347200F270EF700F7DD08 /* pause-48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-48x48.png"; sourceTree = "<group>"; };
+		A0C347250F270FDA00F7DD08 /* favorites-256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorites-256x256.png"; sourceTree = "<group>"; };
+		A0C3474C0F27154900F7DD08 /* stop-48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop-48x48.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				A0C33D260F25968E00F7DD08 /* QuartzCore.framework in Frameworks */,
+				A0C33D370F25969900F7DD08 /* AudioToolbox.framework in Frameworks */,
+				A0C33D440F2596A700F7DD08 /* CFNetwork.framework in Frameworks */,
+				A02E55DF0F33CF4D0021F7BC /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A0989D610F32D10B004B084D /* drawing.m */,
+				A02E54FC0F33CEE40021F7BC /* Reachability.h */,
+				A02E54FD0F33CEE40021F7BC /* Reachability.m */,
+				A02E54430F33C8FD0021F7BC /* EnterIPViewController.h */,
+				A02E54440F33C8FD0021F7BC /* EnterIPViewController.m */,
+				A0989D4A0F32D0E9004B084D /* PDColoredProgressView.h */,
+				A0989D4B0F32D0E9004B084D /* PDColoredProgressView.m */,
+				A0C346D60F270A4900F7DD08 /* PlayerViewController.h */,
+				A0C346D70F270A4900F7DD08 /* PlayerViewController.m */,
+				A0C344600F2675D800F7DD08 /* CFBonjour.h */,
+				A0C344610F2675D800F7DD08 /* CFBonjour.m */,
+				A0C33F030F25BC5D00F7DD08 /* TiVoContainerLoader.h */,
+				A0C33F040F25BC5D00F7DD08 /* TiVoContainerLoader.m */,
+				A07D7B6F0F40F87400DBC2C5 /* TiVoServerLoader.h */,
+				A07D7B700F40F87400DBC2C5 /* TiVoServerLoader.m */,
+				A0C33D470F259E4D00F7DD08 /* TiVoContainer.h */,
+				A0C33D480F259E4D00F7DD08 /* TiVoContainer.m */,
+				A0C33C7C0F25963300F7DD08 /* AudioStreamer.m */,
+				A0C33C7D0F25963300F7DD08 /* AudioStreamer.h */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				A0C345150F268C2A00F7DD08 /* ConnectionsViewController.h */,
+				A0C345160F268C2A00F7DD08 /* ConnectionsViewController.m */,
+				1D3623240D0F684500981E51 /* ConnectTAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ConnectTAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DVR Music.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				A0C348140F2790D800F7DD08 /* Images */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* ConnectT_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				A0C345120F268BD200F7DD08 /* Connections.xib */,
+				A02E543F0F33C7F80021F7BC /* EnterTivoIP.xib */,
+				A0C346730F27032200F7DD08 /* Player.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A02E55DE0F33CF4D0021F7BC /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				A0C33D250F25968E00F7DD08 /* QuartzCore.framework */,
+				A0C33D360F25969900F7DD08 /* AudioToolbox.framework */,
+				A0C33D430F2596A700F7DD08 /* CFNetwork.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0C348140F2790D800F7DD08 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A0989A300F329C31004B084D /* backdrop.png */,
+				A0989DB20F32D3CC004B084D /* favorites-57x57.png */,
+				A0C347250F270FDA00F7DD08 /* favorites-256x256.png */,
+				A0C3471D0F270EF700F7DD08 /* play-48x48.png */,
+				A0C3471E0F270EF700F7DD08 /* forward-48x48.png */,
+				A0C3474C0F27154900F7DD08 /* stop-48x48.png */,
+				A0C3471F0F270EF700F7DD08 /* rewind-48x48.png */,
+				A0C347200F270EF700F7DD08 /* pause-48x48.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DVR Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DVR Music" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DVR Music";
+			productName = ConnectT;
+			productReference = 1D6058910D05DD3D006BFB54 /* DVR Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DVR Music+" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DVR Music */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				A0C345130F268BD200F7DD08 /* Connections.xib in Resources */,
+				A0C346740F27032200F7DD08 /* Player.xib in Resources */,
+				A0C347210F270EF700F7DD08 /* play-48x48.png in Resources */,
+				A0C347220F270EF700F7DD08 /* forward-48x48.png in Resources */,
+				A0C347230F270EF700F7DD08 /* rewind-48x48.png in Resources */,
+				A0C347240F270EF700F7DD08 /* pause-48x48.png in Resources */,
+				A0C347260F270FDA00F7DD08 /* favorites-256x256.png in Resources */,
+				A0C3474D0F27154900F7DD08 /* stop-48x48.png in Resources */,
+				A0989A310F329C31004B084D /* backdrop.png in Resources */,
+				A0989DB30F32D3CC004B084D /* favorites-57x57.png in Resources */,
+				A02E54400F33C7F80021F7BC /* EnterTivoIP.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ConnectTAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				A0C33C7E0F25963300F7DD08 /* AudioStreamer.m in Sources */,
+				A0C33D490F259E4D00F7DD08 /* TiVoContainer.m in Sources */,
+				A0C33F050F25BC5D00F7DD08 /* TiVoContainerLoader.m in Sources */,
+				A0C344620F2675D800F7DD08 /* CFBonjour.m in Sources */,
+				A0C345170F268C2A00F7DD08 /* ConnectionsViewController.m in Sources */,
+				A0C346D80F270A4900F7DD08 /* PlayerViewController.m in Sources */,
+				A0989D4C0F32D0E9004B084D /* PDColoredProgressView.m in Sources */,
+				A0989D620F32D10B004B084D /* drawing.m in Sources */,
+				A02E54450F33C8FE0021F7BC /* EnterIPViewController.m in Sources */,
+				A02E54FE0F33CEE40021F7BC /* Reachability.m in Sources */,
+				A07D7B710F40F87400DBC2C5 /* TiVoServerLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Doug Turner";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Doug Turner";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ConnectT_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "DVR Music";
+				PROVISIONING_PROFILE = "1EDE2CD3-64E8-4667-9A7D-71E1A79BF2AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1EDE2CD3-64E8-4667-9A7D-71E1A79BF2AB";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Doug Turner";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Doug Turner";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ConnectT_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "DVR Music";
+				PROVISIONING_PROFILE = "1EDE2CD3-64E8-4667-9A7D-71E1A79BF2AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1EDE2CD3-64E8-4667-9A7D-71E1A79BF2AB";
+			};
+			name = Release;
+		};
+		A03A2F6C0F3E2EEA000EC398 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Doug Turner";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Doug Turner";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "1EDE2CD3-64E8-4667-9A7D-71E1A79BF2AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1EDE2CD3-64E8-4667-9A7D-71E1A79BF2AB";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Distribution;
+		};
+		A03A2F6D0F3E2EEA000EC398 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Doug Turner";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Doug Turner";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ConnectT_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "DVR Music";
+				PROVISIONING_PROFILE = "69AA29E1-27D3-4243-B498-F1F19E5110FD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "69AA29E1-27D3-4243-B498-F1F19E5110FD";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Doug Turner";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Doug Turner";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "1EDE2CD3-64E8-4667-9A7D-71E1A79BF2AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1EDE2CD3-64E8-4667-9A7D-71E1A79BF2AB";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Doug Turner";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Doug Turner";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "1EDE2CD3-64E8-4667-9A7D-71E1A79BF2AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1EDE2CD3-64E8-4667-9A7D-71E1A79BF2AB";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DVR Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				A03A2F6D0F3E2EEA000EC398 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DVR Music+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				A03A2F6C0F3E2EEA000EC398 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
